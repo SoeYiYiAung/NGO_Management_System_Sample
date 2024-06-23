@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Staff extends Model
 {
     use HasFactory;
-    use HasApiTokens, Notifiable;
+    // use HasApiTokens, Notifiable;
 
     protected $fillable = [
         'name', 'email', 'mobile', 'joinedDate', 'depId', 'position', 'age', 'gender', 'status',
